@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1 — галерея с проверкой большой картинки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="small">
+            <img id="1" src="img\small\1.jpg" onclick="f(this.id)">
+            <img id="2" src="img\small\2.jpg" onclick="f(this.id)">
+            <img id="3" src="img\small\3.jpg" onclick="f(this.id)">
+            <img id="4" src="img\small\4.jpg" onclick="f(this.id)">
+        </div>
+        <div class="big">
+            <img id="big" src="" onerror=ImageError()>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
